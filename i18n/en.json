@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sam Wilson"
+		]
+	},
+	"discourse": "Discourse",
+	"discourse-desc": "A Lua module to include information from Discourse sites in MediaWiki pages.",
+	"discourse-reply-count": "$1 replies",
+	"discourse-tag-list": "tags: $1",
+	"discourse-no-tags": "no tags",
+	"discourse-going-count": "$1 going",
+	"discourse-site-not-found": "Discourse site '$1' is not configured."
+}

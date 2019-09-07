@@ -1,0 +1,60 @@
+{
+	"name": "Discourse",
+	"author": [
+		"[https://samwilson.id.au/ Sam Wilson]"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"namemsg": "discourse",
+	"descriptionmsg": "discourse-desc",
+	"url": "https://www.mediawiki.org/wiki/Extension:Discourse",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.7"
+	},
+	"MessagesDirs": {
+		"Discourse": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"DiscourseMagicWords": "Discourse.i18n.magic.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Discourse\\": "includes/"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "Discourse/modules"
+	},
+	"ResourceModules": {
+		"ext.discourse": {
+			"scripts": [
+				"ext.discourse.js"
+			],
+			"styles": [
+				"ext.discourse.less"
+			],
+			"messages": [
+				"discourse",
+				"discourse-desc"
+			]
+		}
+	},
+	"config": {
+		"DiscourseSites": {
+			"description": "Whitelist of base URLs of Discourse sites to allow (shortname => URL).",
+			"value": {
+				"discourse": "https://meta.discourse.org/",
+				"mediawiki": "https://discourse-mediawiki.wmflabs.org/"
+			}
+		},
+		"DiscourseDefaultSite": {
+			"description": "Default Discourse site to use if none specified.",
+			"value": "discourse"
+		}
+	},
+	"Hooks": {
+		"ScribuntoExternalLibraries": "MediaWiki\\Extension\\Discourse\\Hooks::onScribuntoExternalLibraries"
+	},
+	"manifest_version": 2
+}

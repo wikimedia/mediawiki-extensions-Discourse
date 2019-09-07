@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sam Wilson"
+		]
+	},
+	"discourse": "The name of the extension",
+	"discourse-desc": "{{desc|name=Discourse|url=https://www.mediawiki.org/wiki/Extension:Discourse}}",
+	"discourse-reply-count": "Describes the number of replies to a single topic.\n* $1 is the number of replies.",
+	"discourse-tag-list": "A prefix to a comma-separated list of links to tags.\n* $1 is the HTML list of tags.",
+	"discourse-no-tags": "Displayed when a topic has no tags.",
+	"discourse-going-count": "Describes the number of people who have RSVP'd for an event.\n* $1 is the number of people.",
+	"discourse-site-not-found": "Error Discourse site '$1' is not configured."
+}
