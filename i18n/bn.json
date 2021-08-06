@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"আফতাবুজ্জামান"
+		]
+	},
+	"discourse-reply-count": "$1টি উত্তর",
+	"discourse-tag-list": "ট্যাগ: $1",
+	"discourse-no-tags": "ট্যাগ নেই",
+	"discourse-going-count": "$1 জন যাচ্ছেন"
+}

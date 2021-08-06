@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jeeputer"
+		]
+	},
+	"discourse-reply-count": "$1 پاسخ",
+	"discourse-tag-list": "برچسب‌ها: $1",
+	"discourse-no-tags": "فاقد برچسب"
+}

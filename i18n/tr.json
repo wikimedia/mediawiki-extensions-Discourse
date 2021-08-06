@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jelican9"
+		]
+	},
+	"discourse-tag-list": "etiketler: $1",
+	"discourse-no-tags": "Etiket yok"
+}
