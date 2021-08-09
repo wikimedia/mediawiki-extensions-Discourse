@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"discourse-desc": "'Nu module Lua p e'ngludere 'mbormaziune da le site Discourse jndr'à le pàggene MediaUicchi.",
+	"discourse-reply-count": "$1 resposte",
+	"discourse-tag-list": "tag: $1",
+	"discourse-no-tags": "nisciune tag",
+	"discourse-going-count": "$1 ste ve",
+	"discourse-site-not-found": "Site Discourse '$1' non g'è configurate."
+}

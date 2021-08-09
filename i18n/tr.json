@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hedda",
 			"Jelican9"
 		]
 	},
+	"discourse-desc": "MediaWiki sayfalarında Discourse sitelerinden bilgi eklemek için bir Lua modülü",
+	"discourse-reply-count": "$1 yanıt",
 	"discourse-tag-list": "etiketler: $1",
-	"discourse-no-tags": "Etiket yok"
+	"discourse-no-tags": "etiket yok",
+	"discourse-going-count": "$1 giden",
+	"discourse-site-not-found": "Discourse sitesi '$1' yapılandırılmamış."
 }

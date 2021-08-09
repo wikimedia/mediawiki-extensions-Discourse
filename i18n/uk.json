@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"DDPAT"
+		]
+	},
+	"discourse": "Дискурс",
+	"discourse-desc": "Модуль Lua для включення інформації з сайтів дискурсу на сторінки MediaWiki.",
+	"discourse-reply-count": "$1 відповідей",
+	"discourse-tag-list": "теги: $1",
+	"discourse-no-tags": "немає тегів",
+	"discourse-going-count": "$1 отримали",
+	"discourse-site-not-found": "Дискусійний сайт \"$1\" не налаштовано."
+}

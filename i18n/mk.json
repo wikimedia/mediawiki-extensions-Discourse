@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"discourse-desc": "Lua-модул за вклучување на информации од мрежни места со Discourse во страници на МедијаВики.",
+	"discourse-reply-count": "$1 одговори",
+	"discourse-tag-list": "ознаки: $1",
+	"discourse-no-tags": "нема ознаки",
+	"discourse-going-count": "$1 ќе присуствуваат",
+	"discourse-site-not-found": "Мрежното место со Discourse „$1“ не е поставено."
+}
