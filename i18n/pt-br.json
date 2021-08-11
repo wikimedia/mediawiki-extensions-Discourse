@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"discourse-site-not-found": "O site de discurso '$1' não está configurado."
+}
