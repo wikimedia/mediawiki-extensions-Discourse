@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"discourse-tag-list": "태그: $1",
+	"discourse-no-tags": "태그 없음"
+}
