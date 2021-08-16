@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Thibaut120094"
 		]
 	},
-	"discourse-desc": "Un module Lua pour inclure de l’information des sites Discourse dans les pages de MédiaWiki.",
-	"discourse-reply-count": "$1 réponses",
-	"discourse-tag-list": "balises : $1",
+	"discourse-desc": "Un module Lua pour inclure de l’information des sites Discourse dans les pages de MediaWiki.",
+	"discourse-reply-count": "$1 réponses",
+	"discourse-tag-list": "balises : $1",
 	"discourse-no-tags": "aucune balise",
 	"discourse-going-count": "$1 en cours",
 	"discourse-site-not-found": "Le site '$1' de Discourse n’est pas configuré."
