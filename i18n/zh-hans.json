@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zhang8569"
+		]
+	},
+	"discourse-reply-count": "$1回复",
+	"discourse-tag-list": "标签：$1",
+	"discourse-no-tags": "无标签",
+	"discourse-going-count": "$1正在前往",
+	"discourse-site-not-found": "交谈网页$1没有被配置。"
+}
