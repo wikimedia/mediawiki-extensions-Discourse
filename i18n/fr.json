@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Thibaut120094"
+			"Thibaut120094",
+			"Wladek92"
 		]
 	},
-	"discourse-desc": "Un module Lua pour inclure de l’information des sites Discourse dans les pages de MediaWiki.",
+	"discourse-desc": "Un module Lua pour inclure l’information des sites Discourse dans les pages de MediaWiki.",
 	"discourse-reply-count": "$1 réponses",
 	"discourse-tag-list": "balises : $1",
 	"discourse-no-tags": "aucune balise",
