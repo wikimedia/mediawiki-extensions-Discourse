@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stefano"
+		]
+	},
+	"discourse-reply-count": "$1 risposte",
+	"discourse-no-tags": "Nessun tag",
+	"discourse-going-count": "$1 pervenuti"
+}
