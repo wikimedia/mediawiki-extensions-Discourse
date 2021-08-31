@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Impartial just"
+			"Impartial just",
+			"Kly"
 		]
 	},
+	"discourse-desc": "用於包含來自在 MediaWiki 頁面的 Discourse 站台資訊的 Lua 模組",
 	"discourse-reply-count": "$1 則回覆",
-	"discourse-no-tags": "沒有標籤"
+	"discourse-tag-list": "標籤：$1",
+	"discourse-no-tags": "沒有標籤",
+	"discourse-going-count": "$1 個人正在回覆",
+	"discourse-site-not-found": "Discourse 站台「$1」尚未設定。"
 }
