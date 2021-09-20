@@ -4,5 +4,9 @@
 			"Eduardoaddad"
 		]
 	},
+	"discourse-desc": "Um módulo em Lua para incluir informações de sites do Discourse nas páginas do MediaWiki.",
+	"discourse-reply-count": "$1 respostas",
+	"discourse-tag-list": "etiquetas: $1",
+	"discourse-no-tags": "sem etiquetas",
 	"discourse-site-not-found": "O site de discurso '$1' não está configurado."
 }
