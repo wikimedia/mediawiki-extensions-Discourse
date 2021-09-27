@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"discourse-desc": "Un modulo Lua pro includer information de sitos Discourse in paginas MediaWiki.",
+	"discourse-reply-count": "$1 responsas",
+	"discourse-tag-list": "etiquettas: $1",
+	"discourse-no-tags": "sin etiquettas",
+	"discourse-going-count": "$1 assistera",
+	"discourse-site-not-found": "Le sito Discourse '$1' non es configurate."
+}
