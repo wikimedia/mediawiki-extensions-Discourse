@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Romaine"
+		]
+	},
+	"discourse-reply-count": "$1 reacties",
+	"discourse-tag-list": "tags: $1",
+	"discourse-no-tags": "geen tags",
+	"discourse-going-count": "$1 komend"
+}
