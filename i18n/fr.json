@@ -3,9 +3,11 @@
 		"authors": [
 			"Gomoko",
 			"Thibaut120094",
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
+	"discourse": "Discourse",
 	"discourse-desc": "Un module Lua pour inclure l’information des sites Discourse dans les pages de MediaWiki.",
 	"discourse-reply-count": "$1 réponses",
 	"discourse-tag-list": "balises : $1",
