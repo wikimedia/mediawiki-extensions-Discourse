@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"DiegoAmbrocio"
+		]
+	},
+	"discourse-reply-count": "$1 respuestas",
+	"discourse-tag-list": "etiquetas: $1",
+	"discourse-no-tags": "Ninguna etiqueta",
+	"discourse-going-count": "$1 en curso",
+	"discourse-site-not-found": "El sitio de discurso '$1' no está configurado."
+}
