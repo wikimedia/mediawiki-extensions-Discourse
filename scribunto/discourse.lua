@@ -56,14 +56,19 @@ function discourse.news( frame )
 			urlPath = urlPath .. '?tags=' .. args.tags
 		end
 	elseif args.category == nil and #tags == 1 then
-		urlPath = '/tags/' .. table.concat( tags ) .. '.json'
+		urlPath = '/tag/' .. table.concat( tags ) .. '.json'
 	elseif args.category == nil and #tags > 1 then
-		urlPath = '/tags/intersection/' .. table.concat( tags, '/' ) .. '.json'
+		urlPath = '/tag/intersection/' .. table.concat( tags, '/' ) .. '.json'
 	end
 
 	-- Get the data.
 	local baseUrl = discourse.getBaseUrl( frame.args.site )
 	local data = discourse.getData( frame.args.site, urlPath )
+
+	-- Return nothing if no topics were found.
+	if data == nil or data.topic_list == nil then
+		return ''
+	end
 
 	-- Construct the output wikitext.
 	local outHtml = mw.html.create( 'ol' )

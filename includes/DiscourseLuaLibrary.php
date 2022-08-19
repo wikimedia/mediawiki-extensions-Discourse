@@ -54,22 +54,26 @@ class DiscourseLuaLibrary extends Scribunto_LuaLibraryBase {
 	 */
 	protected function fetch( $url ): array {
 		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
+		$parser = $this->getParser();
 		return $cache->getWithSetCallback(
 			$cache->makeKey( 'discourse', $url ),
 			$cache::TTL_HOUR,
-			static function () use ( $url ) {
+			static function () use ( $url, $parser ) {
 				$requestFactory = MediaWikiServices::getInstance()->getHttpRequestFactory();
+				$requestOptions = [ 'followRedirects' => true ];
 				if ( method_exists( $requestFactory, 'request' ) ) {
 					// For 1.34 and above.
-					$response = $requestFactory->request( 'GET', $url );
+					$response = $requestFactory->request( 'GET', $url, $requestOptions );
 				} else {
 					// For 1.33 and below.
-					$request = $requestFactory->create( $url );
+					$request = $requestFactory->create( $url, $requestOptions );
 					$status = $request->execute();
 					$response = $status->isOK() ? $request->getContent() : false;
 				}
+				$parser->incrementExpensiveFunctionCount();
 				if ( $response ) {
-					return json_decode( $response, true );
+					$data = json_decode( $response, true );
+					return $data ?? [];
 				}
 				return [];
 			}
