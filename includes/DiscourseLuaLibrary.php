@@ -55,7 +55,7 @@ class DiscourseLuaLibrary extends Scribunto_LuaLibraryBase {
 	protected function fetch( $url ): array {
 		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 		return $cache->getWithSetCallback(
-			'discourse-' . md5( $url ),
+			$cache->makeKey( 'discourse', $url ),
 			$cache::TTL_HOUR,
 			static function () use ( $url ) {
 				$requestFactory = MediaWikiServices::getInstance()->getHttpRequestFactory();
