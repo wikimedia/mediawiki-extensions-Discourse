@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"discourse-desc": "Um módulo Lua para incluir informações de ''sites'' do Discourse nas páginas do MediaWiki.",
+	"discourse-reply-count": "$1 respostas",
+	"discourse-tag-list": "etiquetas: $1",
+	"discourse-no-tags": "não tem etiquetas",
+	"discourse-going-count": "$1 vão",
+	"discourse-site-not-found": "O ''site'' do Discourse '$1' não está configurado."
+}
