@@ -2,8 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"FiberAhmed",
-			"أَحمد"
+			"أَحمد",
+			"Meno25"
 		]
 	},
-	"discourse-reply-count": "$1 ردود"
+	"discourse-desc": "وحدة Lua لتضمين معلومات من مواقع Discourse في صفحات ميدياويكي.",
+	"discourse-reply-count": "$1 ردود",
+	"discourse-tag-list": "العلامات: $1",
+	"discourse-no-tags": "بدون علامات",
+	"discourse-going-count": "$1 يذهب",
+	"discourse-site-not-found": "لم يتم تكوين موقع الخطاب ' $1 '."
 }
