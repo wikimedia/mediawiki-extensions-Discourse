@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"discourse-desc": "יחידת לואה להכללת מידע מאתרי Discourse בדפי מדיה־ויקי.",
+	"discourse-reply-count": "{{PLURAL:$1|תגובה אחת|$1 תגובות}}",
+	"discourse-tag-list": "תגים: $1",
+	"discourse-no-tags": "ללא תגים",
+	"discourse-going-count": "$1 באים",
+	"discourse-site-not-found": "אתר ה־Discourse בשם \"$1\" אינו מוגדר."
+}
