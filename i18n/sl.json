@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"discourse-desc": "Modul Lua za vključitev informacij iz mest Discourse v MediaWiki strani.",
+	"discourse-reply-count": "$1 odgovor(ov)",
+	"discourse-tag-list": "oznake: $1",
+	"discourse-no-tags": "brez oznak",
+	"discourse-going-count": "$1 pride(jo)",
+	"discourse-site-not-found": "Mesto »$1« ni konfigurirano."
+}
