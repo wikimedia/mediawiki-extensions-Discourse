@@ -1,10 +1,13 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Justman10000"
+		]
 	},
 	"discourse-desc": "Ein Lua-Modul zur Einbindung von Informationen aus Discourse-Seiten in MediaWiki-Seiten.",
 	"discourse-reply-count": "$1 Antworten",
 	"discourse-tag-list": "Tags: $1",
 	"discourse-no-tags": "Keine Tags",
-	"discourse-site-not-found": "Die Diskurs-Seite „$1“ ist nicht konfiguriert."
+	"discourse-going-count": "$1 gehen",
+	"discourse-site-not-found": "Discourse-Site '$1' ist nicht konfiguriert."
 }
