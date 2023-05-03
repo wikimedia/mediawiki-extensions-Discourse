@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"discourse-desc": "Lua modulis, skirtas įtraukti informaciją iš Discourse svetainių MediaWiki puslapiuose.",
+	"discourse-reply-count": "$1 atsakymų",
+	"discourse-tag-list": "žymos: $1",
+	"discourse-no-tags": "nėra žymių",
+	"discourse-going-count": "dalyvauja $1",
+	"discourse-site-not-found": "Discourse svetainė „$1“ nesukonfigūruota."
+}
