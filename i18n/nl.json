@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Romaine"
 		]
 	},
+	"discourse-desc": "Een Lua-module om informatie van Discourse-sites op te nemen in MediaWiki-pagina’s.",
 	"discourse-reply-count": "$1 reacties",
 	"discourse-tag-list": "tags: $1",
 	"discourse-no-tags": "geen tags",
-	"discourse-going-count": "$1 komend"
+	"discourse-going-count": "$1 komend",
+	"discourse-site-not-found": "De Discourse-site ‘$1’ is niet geconfigureerd."
 }
