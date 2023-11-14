@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zhang8569"
+			"Zhang8569",
+			"GuoPC"
 		]
 	},
-	"discourse-reply-count": "$1回复",
+	"discourse-desc": "用于包含MediaWiki页面中Discourse站点信息的Lua模块。",
+	"discourse-reply-count": "$1条回复",
 	"discourse-tag-list": "标签：$1",
 	"discourse-no-tags": "无标签",
-	"discourse-going-count": "$1正在前往",
-	"discourse-site-not-found": "交谈网页$1没有被配置。"
+	"discourse-going-count": "$1个人正在回复",
+	"discourse-site-not-found": "Discourse站点“$1”尚未配置。"
 }
