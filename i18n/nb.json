@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"EdoAug"
+			"EdoAug",
+			"Jon Harald Søby"
 		]
 	},
-	"discourse-reply-count": "$1 svar"
+	"discourse-desc": "En Lua-modul for å inkludere informasjon fra Discourse-nettsteder i MediaWiki-sider.",
+	"discourse-reply-count": "$1 svar",
+	"discourse-tag-list": "tagger: $1",
+	"discourse-no-tags": "ingen tagger",
+	"discourse-going-count": "$1 skal",
+	"discourse-site-not-found": "Discourse-nettstedet «$1» er ikke konfigurert."
 }
