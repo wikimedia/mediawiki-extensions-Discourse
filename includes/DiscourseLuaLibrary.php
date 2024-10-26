@@ -2,10 +2,10 @@
 
 namespace MediaWiki\Extension\Discourse;
 
+use MediaWiki\Extension\Scribunto\Engines\LuaCommon\LibraryBase;
 use MediaWiki\MediaWikiServices;
-use Scribunto_LuaLibraryBase;
 
-class DiscourseLuaLibrary extends Scribunto_LuaLibraryBase {
+class DiscourseLuaLibrary extends LibraryBase {
 
 	/** @var string[][] */
 	protected $baseUrls;

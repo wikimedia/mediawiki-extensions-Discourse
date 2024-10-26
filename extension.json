@@ -9,7 +9,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:Discourse",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.31.7"
+		"MediaWiki": ">= 1.40"
 	},
 	"MessagesDirs": {
 		"Discourse": [
