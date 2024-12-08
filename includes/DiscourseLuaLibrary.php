@@ -55,18 +55,19 @@ class DiscourseLuaLibrary extends LibraryBase {
 	protected function fetch( $url ): array {
 		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 		$parser = $this->getParser();
+		$method = __METHOD__;
 		return $cache->getWithSetCallback(
 			$cache->makeKey( 'discourse', $url ),
 			$cache::TTL_HOUR,
-			static function () use ( $url, $parser ) {
+			static function () use ( $url, $parser, $method ) {
 				$requestFactory = MediaWikiServices::getInstance()->getHttpRequestFactory();
 				$requestOptions = [ 'followRedirects' => true ];
 				if ( method_exists( $requestFactory, 'request' ) ) {
 					// For 1.34 and above.
-					$response = $requestFactory->request( 'GET', $url, $requestOptions );
+					$response = $requestFactory->request( 'GET', $url, $requestOptions, $method );
 				} else {
 					// For 1.33 and below.
-					$request = $requestFactory->create( $url, $requestOptions );
+					$request = $requestFactory->create( $url, $requestOptions, $method );
 					$status = $request->execute();
 					$response = $status->isOK() ? $request->getContent() : false;
 				}

@@ -10,7 +10,7 @@ namespace MediaWiki\Extension\Discourse;
  * Discourse extension hooks.
  */
 class Hooks implements
-	MediaWiki\Extension\Scribunto\Hooks\ScribuntoExternalLibrariesHook
+	\MediaWiki\Extension\Scribunto\Hooks\ScribuntoExternalLibrariesHook
 {
 
 	/**
