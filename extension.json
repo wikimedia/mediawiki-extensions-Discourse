@@ -54,8 +54,13 @@
 			"value": "discourse"
 		}
 	},
+	"HookHandlers": {
+		"scribunto": {
+			"class": "MediaWiki\\Extension\\Discourse\\Hooks"
+		}
+	},
 	"Hooks": {
-		"ScribuntoExternalLibraries": "MediaWiki\\Extension\\Discourse\\Hooks::onScribuntoExternalLibraries"
+		"ScribuntoExternalLibraries": "scribunto"
 	},
 	"manifest_version": 2
 }

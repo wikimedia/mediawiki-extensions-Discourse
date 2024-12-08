@@ -9,14 +9,16 @@ namespace MediaWiki\Extension\Discourse;
 /**
  * Discourse extension hooks.
  */
-class Hooks {
+class Hooks implements
+	MediaWiki\Extension\Scribunto\Hooks\ScribuntoExternalLibrariesHook
+{
 
 	/**
 	 * @link https://www.mediawiki.org/wiki/Extension:Scribunto/Hooks/ScribuntoExternalLibraries
 	 * @param string $engine
 	 * @param string[] &$libs
 	 */
-	public static function onScribuntoExternalLibraries( $engine, array &$libs ) {
+	public function onScribuntoExternalLibraries( string $engine, array &$libs ) {
 		if ( $engine === 'lua' ) {
 			$libs['mw.ext.discourse'] = DiscourseLuaLibrary::class;
 		}
