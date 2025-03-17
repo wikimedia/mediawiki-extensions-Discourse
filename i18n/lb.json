@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
-	"discourse-reply-count": "$1 Äntwerten"
+	"discourse-reply-count": "$1 Äntwerten",
+	"discourse-tag-list": "Markéierungen: $1",
+	"discourse-no-tags": "keng Markéierungen"
 }
