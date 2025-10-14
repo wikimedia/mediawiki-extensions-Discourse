@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"discourse-desc": "Un módulo Lua para incluír información de sitios de Discourse en páxinas de MediaWiki.",
+	"discourse-reply-count": "$1 respostas",
+	"discourse-tag-list": "etiquetas: $1",
+	"discourse-no-tags": "sen etiquetas",
+	"discourse-going-count": "$1 asistirán",
+	"discourse-site-not-found": "O sitio de Discourse «$1» non está configurado."
+}
