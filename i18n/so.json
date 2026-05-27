@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"discourse-desc": "Module Lua ah oo lagu soo daro macluumaad ka yimaada goobaha Discourse gudaha bogagga MediaWiki.",
+	"discourse-reply-count": "$1 jawaabo",
+	"discourse-tag-list": "Calaamadaha: $1",
+	"discourse-no-tags": "calaamado ma jiraan",
+	"discourse-going-count": "$1 socda",
+	"discourse-site-not-found": "Goobta Discourse ee '$1 lama habeeyay."
+}
