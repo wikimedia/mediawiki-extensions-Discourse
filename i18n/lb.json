@@ -5,7 +5,9 @@
 			"Volvox"
 		]
 	},
+	"discourse-desc": "E Lua-Modul, fir Informatioune vun Discourse-Sitten op MediaWiki-Säiten anzebannen.",
 	"discourse-reply-count": "$1 Äntwerten",
 	"discourse-tag-list": "Markéierungen: $1",
-	"discourse-no-tags": "keng Markéierungen"
+	"discourse-no-tags": "keng Markéierungen",
+	"discourse-site-not-found": "Den Discours-Site „$1“ ass net konfiguréiert."
 }
