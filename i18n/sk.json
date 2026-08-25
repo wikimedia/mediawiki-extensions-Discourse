@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"discourse-desc": "Modul Lua na vkladanie informácií zo stránok Discourse do stránok MediaWiky.",
+	"discourse-reply-count": "$1 odpovedí",
+	"discourse-tag-list": "značky: $1",
+	"discourse-no-tags": "bez značiek",
+	"discourse-going-count": "$1 zúčastnených",
+	"discourse-site-not-found": "Stránka Discourse „$1“ nie je nakonfigurovaná."
+}
