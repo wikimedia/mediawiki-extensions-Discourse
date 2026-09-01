@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"PanWor"
+		]
+	},
+	"discourse-desc": "Moduł Lua umożliwiający umieszczanie informacji z witryn Discourse na stronach MediaWiki.",
+	"discourse-reply-count": "$1 odpowiedzi",
+	"discourse-tag-list": "znaczniki: $1",
+	"discourse-no-tags": "brak znaczników",
+	"discourse-going-count": "$1 bierze udział",
+	"discourse-site-not-found": "Witryna Discourse „$1” nie została skonfigurowana."
+}
