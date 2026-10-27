@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jimkats"
+		]
+	},
+	"discourse-reply-count": "$1 απαντήσεις",
+	"discourse-tag-list": "ετικέτες: $1",
+	"discourse-no-tags": "χωρίς ετικέτες",
+	"discourse-going-count": "θα πάνε $1",
+	"discourse-site-not-found": "Ο ιστότοπος Discourse '$1' δεν έχει ρυθμιστεί."
+}
